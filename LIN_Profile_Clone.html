@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIN Profile</title>
+    <style>
+        *
+        {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .outline{
+            height: 99vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #outline{
+            position: absolute;
+            height:602px;
+            width:295px;
+            border-radius: 30px;
+            border: 1px solid #000;
+        }
+
+        #Section1{
+            height: 70px;
+            color: #fff;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.734);
+        }
+
+        #DivTime{
+            position: absolute;
+            left:8%;
+            top:-5px;
+            transform: translateX(-8%);
+            font-weight: bold;
+            font-size: 0.7em;
+
+        }
+
+        #DivSelfieCamera{
+            position: absolute;
+            top:5px;
+            left:50%;
+            transform: translateX(-50%);
+            height: 12px;
+            width: 12px;
+            background-color: black;
+            border-radius:50px;
+            border: 2px solid grey;
+
+        }
+
+        #DivNetwork1{
+            position: absolute;
+            top:5px;
+            right:15%;
+            font-weight: bold;
+            
+        }
+
+        #DivNetwork2{
+            position: absolute;
+            right: 6%;
+            top:7px;
+            font-weight: bold;
+            font-size: 0.7em;
+        }
+
+        #arrow{
+            position: absolute;
+            left: 10px;
+            top:28px;
+            font-size: 1.4em;
+            color: #fff;
+        }
+
+        #NameBOX{
+            position: absolute;
+            top:3px;
+            left:35px;
+            height: 25px;
+            width: 200px;
+            background-color: rgba(0, 0, 0, 0.334);
+        }
+
+        #NameBOX ion-icon{
+            position: absolute;
+            top:5px;
+            left:10px;
+            font-size: 0.65em;
+        }
+        
+        #NameBOX span{
+            position: absolute;
+            top:5px;
+            left: 30px;
+            font-size: 0.5em;
+        }
+
+        #settings{
+            position: absolute;
+            top:3px;
+            font-size: 0.95em;
+            left:250px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="outline">
+        <div id="outline">
+            <div id="Section1">
+
+                <div id="DivTime">
+                    <p>10:15PM | 1MB/s</p>
+                </div>
+
+                <div id="DivSelfieCamera">
+    
+                </div>
+
+                <div id="DivNetwork1">
+                    <!-- <ion-icon name="wifi-outline"></ion-icon> -->
+                    <ion-icon name="cellular-outline"></ion-icon>
+                    <ion-icon name="battery-half-outline"></ion-icon>
+                </div>
+
+                <div id="DivNetwork2">
+                    <span>47%</span>
+                </div>
+
+                <div id="arrow">
+
+                    <div>
+                        <ion-icon name="arrow-back-sharp"></ion-icon>
+                    </div>
+
+                    <div id="NameBOX">
+                        <ion-icon name="search-outline"></ion-icon>
+                        <span>Kavin Kathiresan</span>
+                    </div>
+
+                    <div id="settings">
+                        <ion-icon name="settings-sharp"></ion-icon>
+                    </div>
+                    
+
+                </div>
+
+
+
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
