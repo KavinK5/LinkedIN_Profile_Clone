@@ -36,10 +36,10 @@
         #DivTime{
             position: absolute;
             left:8%;
-            top:-5px;
+            top:-2px;
             transform: translateX(-8%);
             font-weight: bold;
-            font-size: 0.7em;
+            font-size: 0.57em;
 
         }
 
@@ -59,9 +59,9 @@
         #DivNetwork1{
             position: absolute;
             top:5px;
-            right:15%;
+            right:13%;
             font-weight: bold;
-            
+            font-size:0.85em ;
         }
 
         #DivNetwork2{
@@ -69,7 +69,7 @@
             right: 6%;
             top:7px;
             font-weight: bold;
-            font-size: 0.7em;
+            font-size: 0.57em;
         }
 
         #arrow{
@@ -133,6 +133,124 @@
             top:72px;
             left:10px;
         }
+
+        #NameSection{
+            position: absolute;
+            color: white;
+        }
+
+        #NameSection div:nth-child(1){
+            font-size: 0.85em;
+            margin: 50px 0 0 10px;
+            font-weight: bold;
+        }
+
+        #NameSection div:nth-child(2){
+            margin: 1px 0 0 10px; 
+            font-size:0.65em;
+        }
+
+        #NameSection div:nth-child(3){
+            margin: 6px 0 0 10px; 
+            font-size:0.6em;
+        }
+
+        #NameSection div:nth-child(4){
+            margin-left:10px; 
+            font-size:0.6em;
+            color: rgba(228, 216, 216, 0.744);
+        }
+
+        #NameSection div:nth-child(5){
+            margin-top:7px;
+            margin-left: 10px;
+            font-size:0.6em;
+            color: rgb(0, 114, 255,0.95);
+            font-weight: bold;
+        }
+
+        #NameSection div:nth-child(6){
+            display: flex;
+            justify-content: center;
+            height: 22px;
+            width: 250px;
+            color: #000;
+            /* background-color: rgba(92, 92, 255, 0.926); */
+            background-color: rgb(0, 114, 247,0.95);
+            border-radius: 20px;
+            margin: 10px 0 0 10px;
+        }
+        
+        #NameSection div:nth-child(6) span:nth-child(1){
+            transform: rotate(-50deg);
+            font-size: 0.95em; 
+            font-weight: bold;
+        } 
+
+        #NameSection div:nth-child(6) span:nth-child(2){
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        
+        #NameSection div:nth-child(7) ion-icon{
+            position: absolute;
+            right: -30px;
+            top:142px;
+            font-size: 1.5em;
+        }
+
+        .blackBG{
+            height: 8px;
+            width: 100%;
+            background-color: #000;
+            margin-top: 175px;
+        }
+
+        #Education{
+            position: absolute;
+        }
+
+        #Education div:nth-child(1){
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.8em;
+            margin: 7px 0 0 10px;
+        }
+
+
+        #Education img{
+            height: 45px;
+            width: 50px;
+            border-radius: 0px;
+            position: absolute;
+            top:40px;
+        }
+
+        #KCT{
+            color: #fff;
+            margin:20px 0 0 65px;
+        }
+
+        #KCT div:nth-child(1){
+            font-size: 0.6em;
+        }
+
+        #KCT div:nth-child(2){
+            font-size: 0.55em;
+            margin-left: 9px;
+        }
+
+        #KCT div:nth-child(3){
+            font-size: 0.5em;
+            margin-left: 9px;
+        }
+
+        .blackBG1{
+            height: 8px;
+            width: 100%;
+            background-color: #000;
+            margin-top: 95px;
+        }
         
     </style>
 </head>
@@ -156,7 +274,7 @@
                 </div>
 
                 <div id="DivNetwork2">
-                    <span>47%</span>
+                    <span>60%</span>
                 </div>
 
                 <div id="arrow">
@@ -177,7 +295,7 @@
             </div>
 
             <div id="Section2">
-                <div>An Aspirant Backend Developer</div>
+                <div>An Aspirant Web Developer</div>
             </div>
 
             <img src="./IMG_20220526_122235.jpg">
@@ -185,11 +303,41 @@
             <div id="notification" style="position: absolute;">
                 
                 <ion-icon name="notifications-outline" style="color: white;font-size: 1.2em;position: absolute;top:7px;left:260px;"></ion-icon>
-            </div>            
+            </div>
+            
+            <div id="NameSection">
+                <div>Kavin Kathiresan</div>
+                <div>a B.Tech Graduate</div>
+                <div>Kumaraguru College of Technology</div>
+                <div>Coimbatore, Tamil Nadu, India</div>
+                <div>60 Connections</div> 
+                <div>
+                    <span class="material-symbols-outlined">send</span>
+                    <span>Message</span>
+                </div>
+                <div>
+                    <ion-icon name="ellipsis-horizontal-circle"></ion-icon>
+                </div>
+            </div>
+
+            <div class="blackBG"></div>
+
+            <div id="Education">
+                <div>Education</div>
+                <img src="./KCT.jpeg" alt="">
+
+                <div id="KCT">
+                    <div>Kumaraguru College of Technology</div>
+                    <div>Bachelor of Technology - B.Tech, Biotechnology</div>
+                    <div>Aug 2019 - Apr 2023</div>
+                </div>
+            </div>
+
+            <div class="blackBG1"></div>
         </div>
     </div>
 
-    here<br>
+
     
 
 
